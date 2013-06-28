@@ -1,0 +1,21 @@
+This is a poker playing AI I designed to make decisions for Texas Hold 'Em games.
+
+It could potentially be repurposed for any poker game, though.
+
+There is also a GUI made as a Shoes app, but it is not polished -- I made it just to be easier for a user to input their data and find out what decision they should make.
+
+After the AI class is some short test code I used to ensure everything was working correctly.
+
+The test code creates a new AI that simulates 2500 games for every decision it makes.
+
+For the simulations, the AI will always be facing three opponents with pot odds of (blind = 50, call = 50, current pot = 150)
+
+The test code will perform 100 trials like so:
+1)  Two random cards are chosen -- these are the AI's private cards
+2)  The AI sets the pot odds
+3)  The timer is started
+4)  The AI decides what should be done with its two cards and outputs which cards it had and the decision it reached
+5)  The AI ends the round to prepare for the next set of cards
+6)  The timer is stopped and the elapsed time is recorded
+
+After the 100 trials are done, the average, minimum, maximum, and total times elapsed will be displayed.
